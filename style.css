@@ -1,0 +1,71 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.container{
+    display:flex;
+    flex-direction: row;/*Dette er standar kode*/
+    margin:30px;
+}
+
+.left {
+    min-width: 400px; 
+}
+.footerP {
+    text-align: center;
+    /* writing-mode: vertical-rl; */
+}
+
+.divImg {
+    display: flex;
+}
+
+.containerImg {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 225px;
+}
+
+.vTekst {
+    writing-mode: vertical-rl;
+}
+
+
+.bilder{
+    /* margin-left:10px; */
+    margin: 3%;
+}
+.bilde2 {
+    margin-top: 150px;
+}
+.blide4 {
+    margin-top: 150px;
+}
+.bilde6{
+    margin-top:150px;
+}
+
+
+.bilde5{
+    margin-top:150px;
+}
+
+img {
+    border-radius: 9px;
+}
+
+
+@media(max-width:850px) {
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+}
